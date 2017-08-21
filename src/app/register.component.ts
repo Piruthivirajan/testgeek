@@ -356,7 +356,8 @@ if(this.tangoc){
                                 
                               }
   alert("Successfully Register");
- window.location.reload();
+// window.location.reload();
+ this.router.navigateByUrl('/register');
 return;
 
   }
